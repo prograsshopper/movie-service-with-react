@@ -20,16 +20,7 @@ body {
     display: block;
 }
 
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-.bgImage {
+.bgImage{
     position: absolute;
     top: 0;
     left: 0;
@@ -37,4 +28,13 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
